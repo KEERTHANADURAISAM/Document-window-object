@@ -1,0 +1,77 @@
+
+                                                                              DIFFERENCE BETWEEN DOCUMENT & WINDOW
+
+
+
+
+Document:
+      
+      The document object represent a web page that is loaded in the browser.
+      By accessing the document object, we can access the element in the HTML page. 
+      With the help of document objects, we can add dynamic content to our web page.
+      The document object can be accessed with a window.document or just document.
+
+Syntax:
+
+document.property_name;title\head\body\url
+
+
+WINDOW OBJECT METHODS:
+
+
+alert()=>	          Displays an alert box with a message and an OK button
+
+blur()=>	          Removes focus from the current window
+
+open()=>      	Opens a new browser window
+
+close()=>	          Closes the current window
+
+print()=>      	Prints the content of the current window
+
+prompt()=>	          Displays a dialog box that prompts the visitor for input
+
+
+
+
+WINDOW  PROPERTIES:
+
+innerHeight=>	Returns the height of the window's content area (viewport) including scrollbars
+
+innerWidth=>	Returns the width of a window's content area (viewport) including scrollbars
+
+length=>	Returns the number of <iframe> elements in the current window
+
+
+
+
+                                                           
+                                           			    Document                                                                            window
+
+It represents any HTML document or web page that is loaded in the browser.               It represents a browser window or frame that displays the contents of the webpage.   
+
+
+It is loaded inside the window.                                                                			  It is the very first object that is loaded in the browser.
+
+												
+It is the object of window property.                                                                                     It is the object of the browser.
+
+
+
+All the tags, elements with attributes in HTML are part of the document.                         Global objects, functions, and variables of JavaScript are members of the window object.
+
+
+We can access the document from a window using the window. document                       We can access the window from the window only. i.e. window.window
+
+
+The document is part of BOM (browser object model) and dom                                         The window is part of BOM, not DOM.
+
+(Document object model)
+
+
+Properties of document objects such as title, body, cookies, etc                                        Properties of the window object cannot be accessed by the document object.
+
+can also be accessed by a window like this window. document.title
+
+
+
